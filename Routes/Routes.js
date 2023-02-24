@@ -11,6 +11,6 @@ Route.post("/signup", User);
 Route.post("/login", login);
 Route.post("/tweet", tweets);
 Route.get("/tweetlist", tweetlist);
-Route.delete("/deleteTweet", DeleteTweet);
+Route.delete("/deletetweet", DeleteTweet);
 
 export default Route;
